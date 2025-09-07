@@ -18,3 +18,5 @@ chain = prompt | model | parser
 
 result = chain.invoke({'topic':'chain vs non-chain parser methds only syntax wise'})
 print(result)
+
+chain.get_graph().print_ascii()
