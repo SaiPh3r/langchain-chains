@@ -47,3 +47,5 @@ The support vector machines in scikit-learn support both dense (numpy.ndarray an
 })
 print(result)
 
+chain.get_graph().print_ascii()
+
